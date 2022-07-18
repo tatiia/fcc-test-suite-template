@@ -7,23 +7,80 @@
   </head>
 
   <body>
-    <header id="header">
+    <header id="header" style="display: flex;">
       <div>
-        <img id="header-img" src="" alt="">
+        <img id="header-img" src="https://thumbs.dreamstime.com/b/isolated-classical-guitar-photo-png-format-available-full-transparent-background-54363220.jpg" alt="">
         <h2>Original Guitars</h2>
       </div>
       <nav id="nav-bar">
         <a href="#features" class="nav-link">Features</a>
         <a href="#pricing" class="nav-link">Pricing</a>
-        <a href="#works" class="nav-link">How it works</a>
+        <a href="#video" class="nav-link">How it works</a>
       </nav>
     </header>
-    <form id="form">
-      <input id="email" type="email" placeholder="Enter your email here">
-      <a href="https://www.freecodecamp.com/email-submit">
-        <input id="submit" value="#submit" >
-      </a>
-    </form>
+    <main>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h3>Beautiful, well crafted masterpieces</h3>
+        <div>
+          <input id="email" name="email" type="email" placeholder="Enter your email here">
+        </div>
+        <div>
+          <input id="submit" type="submit" value= "Get Started" >
+        </div>
+      </form>
+  
+      <div id="features">
+        <div>
+          <h1>🧱</h1>
+          <h2>Premium Materials</h2>
+          <p>Our Guitars use the shiniest strings which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+        <div>
+          <h1>🛸</h1>
+          <h2>Fast Shipping</h2>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        <div>
+          <h1>🎸</h1>
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+  
+      <video id="video" src="https://www.youtube.com/watch?v=PCiWTRg-itY">
+      </video>
+  
+      <div id="pricing">
+        <div>
+          <h2>Electric Guitars</h2>
+          <p>
+            <span>
+              $
+            </span>
+            500
+          </p> 
+        </div>
+        <div>
+          <h2>Acoustic Guitars </h2>
+          <p>
+            <span>
+              $
+            </span>
+            1000
+          </p>
+        </div>
+        <div>
+          <h2>Bass Guitar</h2>
+          <p>
+            <span>
+              $
+            </span>
+            800
+          </p> 
+        </div>
+      </div>
+    </main>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
